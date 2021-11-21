@@ -1,0 +1,257 @@
+*{
+    margin: 0; padding: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+html{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 233, 233);
+    
+}
+header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.3))  , url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 4px;
+    word-spacing: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+.hero-box{
+    
+    position: absolute;
+    top: 75%;
+    left: 18%; 
+     
+}
+span{
+    color: red;
+}
+.btn{
+    border:solid 1px rgb(255, 255, 255);
+    padding: 3px 8px ;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+}
+.btn:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border:solid 1px rgb(0, 0, 0);
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+hr{
+    width: 100px;
+    margin: 20px auto;
+    border: solid 2px red;
+    border-radius: 3px;
+    background-color: red;
+
+}
+.clothes{
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.other-clothes{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+#products img{
+    width: 100%;
+    opacity: 60%;
+    margin-top: 2px;
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+#products img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    opacity: 100%;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    size: 1.5rem;
+}
+.products-text{
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.5;
+        
+}
+.suits-images{
+  
+    position: relative;
+}
+.products-text p{
+    margin-top: 10px;
+}
+.suit-styles{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+#suitss img{
+    width: 90%;
+    margin-top: 40px;
+    transform: scale(1.2);
+    transition: 1s;
+}
+#suitss img:hover{
+    width: 100%;
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+.suits-btn{
+    
+    border:solid 1px rgb(0, 0, 0);
+    padding: 3px 8px ;
+    border-radius: 3px;
+    color: rgb(255, 0, 0);
+    
+    
+}
+.suits-btn:hover{
+    background-color: tomato;
+    border:solid 1px rgb(255, 171, 171);
+    padding: 3px 8px ;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    
+    width: 90%;
+}
+.suit-up{
+    width:30%;
+    margin-left: 400px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+.suit-up:hover{
+    width:40%;
+}
+#offers{
+    background-color: rgb(116, 116, 116);
+}
+.offer-img{
+    width: 40%;
+}
+.offer1:first-child{
+    text-align: right;
+    padding-right: 2%;
+}
+.offer1:last-child{
+    text-align: left;
+    padding-right: 2%;
+    padding-top: 50px;
+}
+.offer1:last-child p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.offer1:last-child img{
+    height: 50px;
+}
+#testimonials{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6))  , url(../images/wolf.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment:fixed ;
+}
+#testimonials i{
+    color: white;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+#testimonials p{
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#testimonials img{
+    width : 50px; height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+footer{
+    padding: 50px 100px ;
+    background-color: rgb(48, 48, 48);
+}
+footer p{
+    color: beige;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav{
+    list-style: none;
+}
+.footer-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-nav li a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.social-nav{
+    list-style: none;
+    float: right;
+}
+.social-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.social-nav li a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
